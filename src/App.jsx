@@ -1,9 +1,12 @@
-function App() {
+import Header from "./Header";
+
+const App = () => {
 	return (
 		<>
-			<h1>liten-kod-kata-react</h1>
+			<p>liten-kod-kata-react</p>
+			<Header headerText="Steg 4 klart!" />
 		</>
 	);
-}
+};
 
 export default App;
